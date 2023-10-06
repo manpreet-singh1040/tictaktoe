@@ -1,0 +1,28 @@
+body{
+    background-image: url('https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?cs=srgb&dl=pexels-francesco-ungaro-998641.jpg&fm=jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.head{
+     text-align: center;
+     font-size: 39px;
+     color: antiquewhite;
+     text-decoration: underline rgb(143, 57, 186);
+}
+.table{
+    border-collapse: collapse;
+}
+.table-container{
+    display: flex;
+    justify-content: center;
+}
+.b1{
+    border: 5px solid wheat;
+    background: transparent;
+     height: 150px;
+     width: 150px;
+}
+.b1:hover{
+    border-color: rgb(255, 0, 0);
+}
