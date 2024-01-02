@@ -14,16 +14,17 @@ const checkValidMove=(x)=>{
         {a[x]="x";
         y=0;
         let cimg=new Image();
-        cimg.src='https://s6.imgcdn.dev/ZYUy9.png';
+        cimg.src='./cross-icon.png';
         cimg.style.height=`130px`;
         cimg.style.width=`130px`;
+        cimg.style.backgroundColor=`transparent`;
         b1[x].appendChild(cimg);
     }
         else
         {a[x]="o";
         y=1;
         let zimg=new Image();
-zimg.src='https://s6.imgcdn.dev/ZYlAy.png';
+zimg.src='./clipart4410581.png';
 zimg.style.height=`130px`;
 zimg.style.width=`130px`;
         b1[x].appendChild(zimg);
